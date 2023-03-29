@@ -15,7 +15,7 @@ app.use(cors())
 app.use(morgan('common'))
 
 dotenv.config()
-mongoose.connect(('mongodb://localhost:27017/trello'), () => {
+mongoose.connect(('mongodb+srv://TrungVan1904:TrungVan1904@mycluster.96efpsw.mongodb.net/Trello_Clone'), () => {
     console.log('Connected to MongoDB')
 })
 

@@ -1,4 +1,3 @@
-const reactDom = require('react-dom')
 const { Card, List, Board } = require('../model/model')
 
 const swapList = (list, fromList, toList) => {

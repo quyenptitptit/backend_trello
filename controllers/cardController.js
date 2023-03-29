@@ -1,4 +1,3 @@
-const reactDom = require('react-dom')
 const { Card, List } = require('../model/model')
 
 const cardController = {
